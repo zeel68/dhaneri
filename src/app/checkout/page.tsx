@@ -221,7 +221,7 @@ export default function CheckoutPage() {
         setTimeout(() => {
           console.log(res);
 
-          router.push(`/order-confirmation/${orderId}`)
+          // router.push(`/order-confirmation/${orderId}`)
         }, 1500)
       } else {
         console.log(res);
