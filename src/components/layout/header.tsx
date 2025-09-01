@@ -494,7 +494,7 @@ const Navbar = () => {
                         </motion.button>
 
                         {/* Wishlist */}
-                        <motion.a
+                        {/* <motion.a
                             href="/wishlist"
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.9 }}
@@ -506,7 +506,7 @@ const Navbar = () => {
                                     {wishItems}
                                 </span>
                             )}
-                        </motion.a>
+                        </motion.a> */}
 
                         {/* Cart */}
                         <motion.a
